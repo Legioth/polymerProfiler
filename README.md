@@ -9,6 +9,8 @@ Console-based profiler for Polymer elements and applications
 3. Open the browser's console and run `profiler.showTimeline()` for printing a drill-down timeline of all the collected profiling data or `profiler.showSummaries()` to print profiling data summaries sorted in a couple of different ways.
 4. Fix you code based to avoid the slow parts that you have discovered.
 
+<img src="https://raw.githubusercontent.com/Legioth/polymerProfiler/master/screenshot.png" alt="Screenshot of profiler output in the browser's console">
+
 ## How this works
 
 `profiler.js` wraps various JavaScript functions to collect timing information for how long time it takes to run the wrapped function. Some functions are also wrapped to be able to discover additional functions to wrap once they have been defined.
